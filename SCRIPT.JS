@@ -18,3 +18,6 @@ function createHeart() {
 }
 
 setInterval(createHeart, 300);
+document.getElementById('surpriseButton').addEventListener('click', function() {
+    document.getElementById('message').innerText = "You are the love of my life! 💖";
+});
